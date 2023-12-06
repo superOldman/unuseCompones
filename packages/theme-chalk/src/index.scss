@@ -1,0 +1,36 @@
+@import "./reset.scss";
+@import "./icon-font.scss";
+@import "./rule.scss";
+@import "./dynamic-date-picker.scss";
+@import "./multi-type-select.scss";
+@import "./switch.scss";
+@import "./switch-warp.scss";
+
+body {
+    font-size: 14px;
+    font-family: PingFang SC;
+}
+
+[class^="ds-icon-"],
+[class*=" ds-icon-"] {
+    font-family: ds-font-icons !important;
+    display: inline-block;
+    line-height: 1;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+[class*=" el-icon-"][class*=" ds-icon-"],
+[class*=" el-icon-"][class^="ds-icon-"],
+[class*="el-icon-"][class*=" ds-icon-"],
+[class*="el-icon-"][class^="ds-icon-"] {
+    font-family: ds-font-icons !important;
+    display: inline-block;
+    line-height: 1;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

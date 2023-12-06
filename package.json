@@ -1,0 +1,51 @@
+{
+  "name": "di-smart-component",
+  "version": "0.1.0",
+  "description": "Vue2 中基于Element-ui二次封装基础组件文档",
+  "private": true,
+  "main": "lib/di-smart-component.umd.min.js",
+  "files": [
+    "lib",
+    "src",
+    "packages",
+    "README.md",
+    "package.json"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve --open",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name di-smart-component --dest lib packages/index.js",
+    "clean": "rimraf lib",
+    "dist": "npm run clean  && npm run lib && webpack --config build/webpack.conf.js"
+  },
+  "dependencies": {
+    "@vue/babel-helper-vue-jsx-merge-props": "^1.4.0",
+    "@vue/babel-preset-jsx": "^1.4.0",
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "element-ui": "^2.15.14",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.3",
+    "throttle-debounce": "^1.0.1",
+    "uuid": "^9.0.1",
+    "vue": "^2.6.11",
+    "vue-clipboard2": "^0.3.1",
+    "vue-highlight.js": "^3.1.0",
+    "vue-virtual-scroller": "^1.1.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.15",
+    "@vue/cli-plugin-router": "~4.5.15",
+    "@vue/cli-plugin-vuex": "~4.5.15",
+    "@vue/cli-service": "~4.5.15",
+    "progress-bar-webpack-plugin": "^1.11.0",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11",
+    "vuepress": "^1.5.2",
+    "vuepress-plugin-gotop-plus": "^1.0.4",
+    "vuepress-plugin-typescript": "^0.3.1"
+  }
+}

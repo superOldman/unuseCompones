@@ -1,0 +1,13 @@
+.ds-icon-font {
+    display: inline-flex;
+    width: 16px;
+    height: 16px;
+}
+.ds-icon-font > svg {
+    height: 1em;
+    width: 1em;
+    vertical-align: -0.15em;
+    font-size: 16px;
+    fill: currentColor;
+    overflow: hidden;
+}

@@ -1,0 +1,4679 @@
+{
+  "code": 200,
+  "success": true,
+  "data": {
+      "checkList": [
+          {
+              "eventType": 1,
+              "eventTypeName": "一般事件",
+              "sort": 1
+          },
+          {
+              "eventType": 3,
+              "eventTypeName": "虚拟事件",
+              "sort": 2
+          },
+          {
+              "eventType": 2,
+              "eventTypeName": "圈选事件",
+              "sort": 3
+          }
+      ],
+      "options": [
+          {
+              "id": "1717080183283728385",
+              "label": "AB测试",
+              "options": [
+                  {
+                      "id": null,
+                      "uniqueValue": "$AppClick",
+                      "parentId": null,
+                      "nameEn": "$AppClick",
+                      "name": "App 元素点击",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 3377,
+                          "eventNameEn": "$AppClick",
+                          "eventNameCn": "App 元素点击",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "App 元素点击",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:03",
+                              "属性描述": null,
+                              "属性名称": "$AppClick"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$AppEnd",
+                      "parentId": null,
+                      "nameEn": "$AppEnd",
+                      "name": "App 退出",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 3379,
+                          "eventNameEn": "$AppEnd",
+                          "eventNameCn": "App 退出",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "App 退出",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:05",
+                              "属性描述": null,
+                              "属性名称": "$AppEnd"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$AppInstall",
+                      "parentId": null,
+                      "nameEn": "$AppInstall",
+                      "name": "App 安装后首次启动",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 3380,
+                          "eventNameEn": "$AppInstall",
+                          "eventNameCn": "App 安装后首次启动",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "App 安装后首次启动",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-03-23 18:48:26",
+                              "属性描述": null,
+                              "属性名称": "$AppInstall"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$AppPushClick",
+                      "parentId": null,
+                      "nameEn": "$AppPushClick",
+                      "name": "App 推送点击",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 3382,
+                          "eventNameEn": "$AppPushClick",
+                          "eventNameCn": "App 推送点击",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "App 推送点击",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-03-23 18:48:26",
+                              "属性描述": null,
+                              "属性名称": "$AppPushClick"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$AppStart",
+                      "parentId": null,
+                      "nameEn": "$AppStart",
+                      "name": "App 启动",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 3384,
+                          "eventNameEn": "$AppStart",
+                          "eventNameCn": "App 启动",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "App 启动",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:04",
+                              "属性描述": null,
+                              "属性名称": "$AppStart"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$AppStartPassively",
+                      "parentId": null,
+                      "nameEn": "$AppStartPassively",
+                      "name": "App 被动启动",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 3395,
+                          "eventNameEn": "$AppStartPassively",
+                          "eventNameCn": "App 被动启动",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "App 被动启动",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-03-23 18:48:37",
+                              "属性描述": null,
+                              "属性名称": "$AppStartPassively"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$AppViewScreen",
+                      "parentId": null,
+                      "nameEn": "$AppViewScreen",
+                      "name": "App 浏览页面",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 3385,
+                          "eventNameEn": "$AppViewScreen",
+                          "eventNameCn": "App 浏览页面",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "App 浏览页面",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-03-23 18:48:26",
+                              "属性描述": null,
+                              "属性名称": "$AppViewScreen"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "AppCrashed",
+                      "parentId": null,
+                      "nameEn": "AppCrashed",
+                      "name": "App 崩溃",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 3386,
+                          "eventNameEn": "AppCrashed",
+                          "eventNameCn": "App 崩溃",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "App 崩溃",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-03-23 18:48:26",
+                              "属性描述": null,
+                              "属性名称": "AppCrashed"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$AppDeeplinkMatchedResult",
+                      "parentId": null,
+                      "nameEn": "$AppDeeplinkMatchedResult",
+                      "name": "深度链接匹配结果",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 3378,
+                          "eventNameEn": "$AppDeeplinkMatchedResult",
+                          "eventNameCn": "深度链接匹配结果",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "深度链接匹配结果",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-03-23 18:48:26",
+                              "属性描述": null,
+                              "属性名称": "$AppDeeplinkMatchedResult"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$AppPageLeave",
+                      "parentId": null,
+                      "nameEn": "$AppPageLeave",
+                      "name": "页面离开",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 3381,
+                          "eventNameEn": "$AppPageLeave",
+                          "eventNameCn": "页面离开",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "页面离开",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:02",
+                              "属性描述": null,
+                              "属性名称": "$AppPageLeave"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$AppRemoteConfigChanged",
+                      "parentId": null,
+                      "nameEn": "$AppRemoteConfigChanged",
+                      "name": "远程控制配置变化",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 3383,
+                          "eventNameEn": "$AppRemoteConfigChanged",
+                          "eventNameCn": "远程控制配置变化",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "远程控制配置变化",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-03-23 18:48:26",
+                              "属性描述": null,
+                              "属性名称": "$AppRemoteConfigChanged"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "ii",
+                      "parentId": null,
+                      "nameEn": "ii",
+                      "name": "\uD83D\uDC02@#￥%     ***/23123123123123123123123123",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6081,
+                          "eventNameEn": "ii",
+                          "eventNameCn": "\uD83D\uDC02@#￥%     ***/23123123123123123123123123",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "\uD83D\uDC02@#￥%     ***/23123123123123123123123123",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-11-14 10:30:54",
+                              "属性描述": "",
+                              "属性名称": "ii"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$ABTestTrigger",
+                      "parentId": null,
+                      "nameEn": "$ABTestTrigger",
+                      "name": "A/B 测试",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 4790,
+                          "eventNameEn": "$ABTestTrigger",
+                          "eventNameCn": "A/B 测试",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "A/B 测试",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:05",
+                              "属性描述": null,
+                              "属性名称": "$ABTestTrigger"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$JpushLogin",
+                      "parentId": null,
+                      "nameEn": "$JpushLogin",
+                      "name": "极光注册",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 1763,
+                          "eventNameEn": "$JpushLogin",
+                          "eventNameCn": "极光注册",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "极光注册",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-03-20 10:30:00",
+                              "属性描述": null,
+                              "属性名称": "$JpushLogin"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$PlanAudienceEnter",
+                      "parentId": null,
+                      "nameEn": "$PlanAudienceEnter",
+                      "name": "用户进入",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 1764,
+                          "eventNameEn": "$PlanAudienceEnter",
+                          "eventNameCn": "用户进入",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "用户进入",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:05",
+                              "属性描述": null,
+                              "属性名称": "$PlanAudienceEnter"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$PlanConverted",
+                      "parentId": null,
+                      "nameEn": "$PlanConverted",
+                      "name": "已完成目标转化",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 1765,
+                          "eventNameEn": "$PlanConverted",
+                          "eventNameCn": "已完成目标转化",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "已完成目标转化",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:04",
+                              "属性描述": null,
+                              "属性名称": "$PlanConverted"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$PlanEdmShow",
+                      "parentId": null,
+                      "nameEn": "$PlanEdmShow",
+                      "name": "邮件打开",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 1766,
+                          "eventNameEn": "$PlanEdmShow",
+                          "eventNameCn": "邮件打开",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "邮件打开",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-03-20 10:30:00",
+                              "属性描述": null,
+                              "属性名称": "$PlanEdmShow"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$PlanEnd",
+                      "parentId": null,
+                      "nameEn": "$PlanEnd",
+                      "name": "用户流程退出",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 1767,
+                          "eventNameEn": "$PlanEnd",
+                          "eventNameCn": "用户流程退出",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "用户流程退出",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:04",
+                              "属性描述": null,
+                              "属性名称": "$PlanEnd"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$PlanTriggerA",
+                      "parentId": null,
+                      "nameEn": "$PlanTriggerA",
+                      "name": "完成A",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 1778,
+                          "eventNameEn": "$PlanTriggerA",
+                          "eventNameCn": "完成A",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "完成A",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:03",
+                              "属性描述": null,
+                              "属性名称": "$PlanTriggerA"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$PlanTriggerANotB",
+                      "parentId": null,
+                      "nameEn": "$PlanTriggerANotB",
+                      "name": "完成A未完成B",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 1779,
+                          "eventNameEn": "$PlanTriggerANotB",
+                          "eventNameCn": "完成A未完成B",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "完成A未完成B",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:04",
+                              "属性描述": null,
+                              "属性名称": "$PlanTriggerANotB"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$ResourceItemClick",
+                      "parentId": null,
+                      "nameEn": "$ResourceItemClick",
+                      "name": "素材点击",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 1780,
+                          "eventNameEn": "$ResourceItemClick",
+                          "eventNameCn": "素材点击",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "素材点击",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:04",
+                              "属性描述": null,
+                              "属性名称": "$ResourceItemClick"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$ResourceLoadFailed",
+                      "parentId": null,
+                      "nameEn": "$ResourceLoadFailed",
+                      "name": "资源位数据拉取失败",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 1781,
+                          "eventNameEn": "$ResourceLoadFailed",
+                          "eventNameCn": "资源位数据拉取失败",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "资源位数据拉取失败",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-03-20 10:30:00",
+                              "属性描述": null,
+                              "属性名称": "$ResourceLoadFailed"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$ResourceLoadSuccess",
+                      "parentId": null,
+                      "nameEn": "$ResourceLoadSuccess",
+                      "name": "资源位数据拉取成功",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 1782,
+                          "eventNameEn": "$ResourceLoadSuccess",
+                          "eventNameCn": "资源位数据拉取成功",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "资源位数据拉取成功",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-03-20 10:30:00",
+                              "属性描述": null,
+                              "属性名称": "$ResourceLoadSuccess"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$ResourceShowFail",
+                      "parentId": null,
+                      "nameEn": "$ResourceShowFail",
+                      "name": "资源位展示失败",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 1783,
+                          "eventNameEn": "$ResourceShowFail",
+                          "eventNameCn": "资源位展示失败",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "资源位展示失败",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-03-20 10:30:00",
+                              "属性描述": null,
+                              "属性名称": "$ResourceShowFail"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$ResourceShowSuccess",
+                      "parentId": null,
+                      "nameEn": "$ResourceShowSuccess",
+                      "name": "资源位展示成功",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 1784,
+                          "eventNameEn": "$ResourceShowSuccess",
+                          "eventNameCn": "资源位展示成功",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "资源位展示成功",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-03-20 10:30:00",
+                              "属性描述": null,
+                              "属性名称": "$ResourceShowSuccess"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$ResourceStayDuration",
+                      "parentId": null,
+                      "nameEn": "$ResourceStayDuration",
+                      "name": "停留时长",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 1785,
+                          "eventNameEn": "$ResourceStayDuration",
+                          "eventNameCn": "停留时长",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "停留时长",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:03",
+                              "属性描述": null,
+                              "属性名称": "$ResourceStayDuration"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "app",
+                      "parentId": null,
+                      "nameEn": "app",
+                      "name": "一般事件（禁用）",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 2,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6951,
+                          "eventNameEn": "app",
+                          "eventNameCn": "一般事件",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "一般事件",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:03",
+                              "属性描述": "",
+                              "属性名称": "app"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$PlanMsgClick",
+                      "parentId": null,
+                      "nameEn": "$PlanMsgClick",
+                      "name": "消息链接点击",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 1769,
+                          "eventNameEn": "$PlanMsgClick",
+                          "eventNameCn": "消息链接点击",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "消息链接点击",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:04",
+                              "属性描述": null,
+                              "属性名称": "$PlanMsgClick"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "clickp1",
+                      "parentId": null,
+                      "nameEn": "clickp1",
+                      "name": "clickp1",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 7252,
+                          "eventNameEn": "clickp1",
+                          "eventNameCn": "clickp1",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "clickp1",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:05",
+                              "属性描述": "编程实验埋点",
+                              "属性名称": "clickp1"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "clickp1a",
+                      "parentId": null,
+                      "nameEn": "clickp1a",
+                      "name": "clickp1a",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 7253,
+                          "eventNameEn": "clickp1a",
+                          "eventNameCn": "clickp1a",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "clickp1a",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:05",
+                              "属性描述": "编程试验埋点",
+                              "属性名称": "clickp1a"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "clickm1",
+                      "parentId": null,
+                      "nameEn": "clickm1",
+                      "name": "clickm1",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 7254,
+                          "eventNameEn": "clickm1",
+                          "eventNameCn": "clickm1",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "clickm1",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:03",
+                              "属性描述": "多链接试验埋点",
+                              "属性名称": "clickm1"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "clickm1a",
+                      "parentId": null,
+                      "nameEn": "clickm1a",
+                      "name": "clickm1a",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 7255,
+                          "eventNameEn": "clickm1a",
+                          "eventNameCn": "clickm1a",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "clickm1a",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:05",
+                              "属性描述": "多链接试验埋点",
+                              "属性名称": "clickm1a"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "clickv1",
+                      "parentId": null,
+                      "nameEn": "clickv1",
+                      "name": "clickv1",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 7256,
+                          "eventNameEn": "clickv1",
+                          "eventNameCn": "clickv1",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "clickv1",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:04",
+                              "属性描述": "可视化试验埋点",
+                              "属性名称": "clickv1"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "clickv1a",
+                      "parentId": null,
+                      "nameEn": "clickv1a",
+                      "name": "clickv1a",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 7257,
+                          "eventNameEn": "clickv1a",
+                          "eventNameCn": "clickv1a",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "clickv1a",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:03",
+                              "属性描述": "可视化试验埋点",
+                              "属性名称": "clickv1a"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "AB_001",
+                      "parentId": null,
+                      "nameEn": "AB_001",
+                      "name": "AB_001",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 7258,
+                          "eventNameEn": "AB_001",
+                          "eventNameCn": "AB_001",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "AB_001",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-10-26 09:15:13",
+                              "属性描述": "AB_001AB_001AB_001AB_001AB_001AB_001AB_001AB_001AB_001AB_001AB_001AB_001AB_001AB_001AB_001AB_001AB_0",
+                              "属性名称": "AB_001"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$PlanMsgContentCancelPraise",
+                      "parentId": null,
+                      "nameEn": "$PlanMsgContentCancelPraise",
+                      "name": "消息内容取消点赞",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 1771,
+                          "eventNameEn": "$PlanMsgContentCancelPraise",
+                          "eventNameCn": "消息内容取消点赞",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "消息内容取消点赞",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:05",
+                              "属性描述": null,
+                              "属性名称": "$PlanMsgContentCancelPraise"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "t001",
+                      "parentId": null,
+                      "nameEn": "t001",
+                      "name": "t001",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 7565,
+                          "eventNameEn": "t001",
+                          "eventNameCn": "t001",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "t001",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:05",
+                              "属性描述": "大冤种",
+                              "属性名称": "t001"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "t002",
+                      "parentId": null,
+                      "nameEn": "t002",
+                      "name": "t002",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 7566,
+                          "eventNameEn": "t002",
+                          "eventNameCn": "t002",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "t002",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-05 14:14:50",
+                              "属性描述": "好神奇",
+                              "属性名称": "t002"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "t003",
+                      "parentId": null,
+                      "nameEn": "t003",
+                      "name": "t0034567",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 7567,
+                          "eventNameEn": "t003",
+                          "eventNameCn": "t0034567",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "t0034567",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 10:04:46",
+                              "属性描述": "asfd",
+                              "属性名称": "t003"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "test22",
+                      "parentId": null,
+                      "nameEn": "test22",
+                      "name": "修噶",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 7048,
+                          "eventNameEn": "test22",
+                          "eventNameCn": "修噶",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "修噶",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-09-16 10:38:57",
+                              "属性描述": "",
+                              "属性名称": "test22"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "xunni_event_test",
+                      "parentId": null,
+                      "nameEn": "xunni_event_test",
+                      "name": "虚拟高级测试",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 3,
+                      "labelInfo": {
+                          "id": 7374,
+                          "eventNameEn": "xunni_event_test",
+                          "eventNameCn": "虚拟高级测试",
+                          "tag": [
+                              "虚拟事件"
+                          ],
+                          "eventName": "虚拟高级测试",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-11-15 14:31:24",
+                              "属性描述": null,
+                              "属性名称": "xunni_event_test"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$PlanMsgContentCancelCollect",
+                      "parentId": null,
+                      "nameEn": "$PlanMsgContentCancelCollect",
+                      "name": "消息内容取消收藏",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 1770,
+                          "eventNameEn": "$PlanMsgContentCancelCollect",
+                          "eventNameCn": "消息内容取消收藏",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "消息内容取消收藏",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:04",
+                              "属性描述": null,
+                              "属性名称": "$PlanMsgContentCancelCollect"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$PlanMsgContentCollect",
+                      "parentId": null,
+                      "nameEn": "$PlanMsgContentCollect",
+                      "name": "消息内容收藏",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 1772,
+                          "eventNameEn": "$PlanMsgContentCollect",
+                          "eventNameCn": "消息内容收藏",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "消息内容收藏",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:03",
+                              "属性描述": null,
+                              "属性名称": "$PlanMsgContentCollect"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$PlanMsgContentPraise",
+                      "parentId": null,
+                      "nameEn": "$PlanMsgContentPraise",
+                      "name": "消息内容点赞",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 1773,
+                          "eventNameEn": "$PlanMsgContentPraise",
+                          "eventNameCn": "消息内容点赞",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "消息内容点赞",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:03",
+                              "属性描述": null,
+                              "属性名称": "$PlanMsgContentPraise"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$PlanMsgContentShare",
+                      "parentId": null,
+                      "nameEn": "$PlanMsgContentShare",
+                      "name": "消息内容转发",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 1774,
+                          "eventNameEn": "$PlanMsgContentShare",
+                          "eventNameCn": "消息内容转发",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "消息内容转发",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:05",
+                              "属性描述": null,
+                              "属性名称": "$PlanMsgContentShare"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$PlanMsgContentSubmitForm",
+                      "parentId": null,
+                      "nameEn": "$PlanMsgContentSubmitForm",
+                      "name": "消息内容提交表单",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 1775,
+                          "eventNameEn": "$PlanMsgContentSubmitForm",
+                          "eventNameCn": "消息内容提交表单",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "消息内容提交表单",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:02",
+                              "属性描述": null,
+                              "属性名称": "$PlanMsgContentSubmitForm"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  }
+              ],
+              "sort": 0
+          },
+          {
+              "id": "1731919763817340930",
+              "label": "虚拟用的一般事件",
+              "options": [
+                  {
+                      "id": null,
+                      "uniqueValue": "$MPViewScreen",
+                      "parentId": null,
+                      "nameEn": "$MPViewScreen",
+                      "name": "小程序页面浏览",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 3405,
+                          "eventNameEn": "$MPViewScreen",
+                          "eventNameCn": "小程序页面浏览",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "小程序页面浏览",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:02",
+                              "属性描述": null,
+                              "属性名称": "$MPViewScreen"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "Ddeceshishuju_11",
+                      "parentId": null,
+                      "nameEn": "Ddeceshishuju_11",
+                      "name": "D的测试数据111",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 7526,
+                          "eventNameEn": "Ddeceshishuju_11",
+                          "eventNameCn": "D的测试数据111",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "D的测试数据111",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-05 18:06:22",
+                              "属性描述": "测试",
+                              "属性名称": "Ddeceshishuju_11"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "DD_01",
+                      "parentId": null,
+                      "nameEn": "DD_01",
+                      "name": "D的测试数据001",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 0,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 7630,
+                          "eventNameEn": "DD_01",
+                          "eventNameCn": "D的测试数据001",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "D的测试数据001",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 11:04:11",
+                              "属性描述": "",
+                              "属性名称": "DD_01"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$WecomLeaveGroupChat",
+                      "parentId": null,
+                      "nameEn": "$WecomLeaveGroupChat",
+                      "name": "企微退出群聊",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 1792,
+                          "eventNameEn": "$WecomLeaveGroupChat",
+                          "eventNameCn": "企微退出群聊",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "企微退出群聊",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-03-20 10:30:00",
+                              "属性描述": null,
+                              "属性名称": "$WecomLeaveGroupChat"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$WecomMass",
+                      "parentId": null,
+                      "nameEn": "$WecomMass",
+                      "name": "企微群发",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 1793,
+                          "eventNameEn": "$WecomMass",
+                          "eventNameCn": "企微群发",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "企微群发",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-03-20 10:30:00",
+                              "属性描述": null,
+                              "属性名称": "$WecomMass"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$WechatFocus",
+                      "parentId": null,
+                      "nameEn": "$WechatFocus",
+                      "name": "关注公众号",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 1786,
+                          "eventNameEn": "$WechatFocus",
+                          "eventNameCn": "关注公众号",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "关注公众号",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:03",
+                              "属性描述": null,
+                              "属性名称": "$WechatFocus"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$WechatMass",
+                      "parentId": null,
+                      "nameEn": "$WechatMass",
+                      "name": "公众号群发",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 1787,
+                          "eventNameEn": "$WechatMass",
+                          "eventNameCn": "公众号群发",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "公众号群发",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-03-20 10:30:00",
+                              "属性描述": null,
+                              "属性名称": "$WechatMass"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$WechatUnFocus",
+                      "parentId": null,
+                      "nameEn": "$WechatUnFocus",
+                      "name": "取消关注公众号",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 1788,
+                          "eventNameEn": "$WechatUnFocus",
+                          "eventNameCn": "取消关注公众号",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "取消关注公众号",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-03-20 10:30:00",
+                              "属性描述": null,
+                              "属性名称": "$WechatUnFocus"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$WecomDeleteUser",
+                      "parentId": null,
+                      "nameEn": "$WecomDeleteUser",
+                      "name": "企微删除好友",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 1790,
+                          "eventNameEn": "$WecomDeleteUser",
+                          "eventNameCn": "企微删除好友",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "企微删除好友",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-03-20 10:30:00",
+                              "属性描述": null,
+                              "属性名称": "$WecomDeleteUser"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$WecomJoinGroupChat",
+                      "parentId": null,
+                      "nameEn": "$WecomJoinGroupChat",
+                      "name": "企微加入群聊",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 1791,
+                          "eventNameEn": "$WecomJoinGroupChat",
+                          "eventNameCn": "企微加入群聊",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "企微加入群聊",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-03-20 10:30:00",
+                              "属性描述": null,
+                              "属性名称": "$WecomJoinGroupChat"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$WecomAddUser",
+                      "parentId": null,
+                      "nameEn": "$WecomAddUser",
+                      "name": "企微添加好友",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 1789,
+                          "eventNameEn": "$WecomAddUser",
+                          "eventNameCn": "企微添加好友",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "企微添加好友",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:02",
+                              "属性描述": null,
+                              "属性名称": "$WecomAddUser"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "kimi-test",
+                      "parentId": null,
+                      "nameEn": "kimi-test",
+                      "name": "kimi-test（禁用）",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 2,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6957,
+                          "eventNameEn": "kimi-test",
+                          "eventNameCn": "kimi-test",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "kimi-test",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-08-31 14:48:22",
+                              "属性描述": "kimi-testkimi-testkimi-testkimi-testkimi-test",
+                              "属性名称": "kimi-test"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$pageview",
+                      "parentId": null,
+                      "nameEn": "$pageview",
+                      "name": "Web 浏览页面",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 3372,
+                          "eventNameEn": "$pageview",
+                          "eventNameCn": "Web 浏览页面",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "Web 浏览页面",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:03",
+                              "属性描述": null,
+                              "属性名称": "$pageview"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$WebClick",
+                      "parentId": null,
+                      "nameEn": "$WebClick",
+                      "name": "Web 元素点击",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 3373,
+                          "eventNameEn": "$WebClick",
+                          "eventNameCn": "Web 元素点击",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "Web 元素点击",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:03",
+                              "属性描述": null,
+                              "属性名称": "$WebClick"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$WebPageLeave",
+                      "parentId": null,
+                      "nameEn": "$WebPageLeave",
+                      "name": "Web 页面离开",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 3374,
+                          "eventNameEn": "$WebPageLeave",
+                          "eventNameCn": "Web 页面离开",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "Web 页面离开",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-03-23 18:47:53",
+                              "属性描述": null,
+                              "属性名称": "$WebPageLeave"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$WebPageLoad",
+                      "parentId": null,
+                      "nameEn": "$WebPageLoad",
+                      "name": "Web 页面加载",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 3375,
+                          "eventNameEn": "$WebPageLoad",
+                          "eventNameCn": "Web 页面加载",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "Web 页面加载",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-07-28 00:01:15",
+                              "属性描述": null,
+                              "属性名称": "$WebPageLoad"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$WebStay",
+                      "parentId": null,
+                      "nameEn": "$WebStay",
+                      "name": "Web 视区停留",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 3376,
+                          "eventNameEn": "$WebStay",
+                          "eventNameCn": "Web 视区停留",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "Web 视区停留",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:03",
+                              "属性描述": null,
+                              "属性名称": "$WebStay"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "drop",
+                      "parentId": null,
+                      "nameEn": "drop",
+                      "name": "胜日寻芳泗水滨",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 7259,
+                          "eventNameEn": "drop",
+                          "eventNameCn": "胜日寻芳泗水滨",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "胜日寻芳泗水滨",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-10-26 13:43:13",
+                              "属性描述": "",
+                              "属性名称": "drop"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "qq---",
+                      "parentId": null,
+                      "nameEn": "qq---",
+                      "name": "商品订单提交1描述上末，多场演唱会在上海举行，全国各地粉丝跨城追星。然而，部分原计划来上海参加演唱会的外地粉丝，因台风杜苏芮阻碍出行步伐，并在退票时遭遇难题。\n　　今年线下演唱会市场蓬勃复苏，不少粉丝",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 0,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6176,
+                          "eventNameEn": "qq---",
+                          "eventNameCn": "商品订单提交1描述上末，多场演唱会在上海举行，全国各地粉丝跨城追星。然而，部分原计划来上海参加演唱会的外地粉丝，因台风杜苏芮阻碍出行步伐，并在退票时遭遇难题。\n　　今年线下演唱会市场蓬勃复苏，不少粉丝",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "商品订单提交1描述上末，多场演唱会在上海举行，全国各地粉丝跨城追星。然而，部分原计划来上海参加演唱会的外地粉丝，因台风杜苏芮阻碍出行步伐，并在退票时遭遇难题。\n　　今年线下演唱会市场蓬勃复苏，不少粉丝",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:04",
+                              "属性描述": "",
+                              "属性名称": "qq---"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "tjdingdan",
+                      "parentId": null,
+                      "nameEn": "tjdingdan",
+                      "name": "提交订单",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 4116,
+                          "eventNameEn": "tjdingdan",
+                          "eventNameCn": "提交订单",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "提交订单",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:02",
+                              "属性描述": "",
+                              "属性名称": "tjdingdan"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "GoodsPlaceOrder0110",
+                      "parentId": null,
+                      "nameEn": "GoodsPlaceOrder0110",
+                      "name": "1商品订单提交描述上末，多场演唱会在上海举行，全国各地粉丝跨城追星。然而，部分原计划来上海参加演唱会的外地粉丝，因台风杜苏芮阻碍出行步伐，并在退票时遭遇难题。　　今年线下演唱会市场蓬勃复苏，不少粉丝全（禁用）",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 2,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6299,
+                          "eventNameEn": "GoodsPlaceOrder0110",
+                          "eventNameCn": "1商品订单提交描述上末，多场演唱会在上海举行，全国各地粉丝跨城追星。然而，部分原计划来上海参加演唱会的外地粉丝，因台风杜苏芮阻碍出行步伐，并在退票时遭遇难题。　　今年线下演唱会市场蓬勃复苏，不少粉丝全",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "1商品订单提交描述上末，多场演唱会在上海举行，全国各地粉丝跨城追星。然而，部分原计划来上海参加演唱会的外地粉丝，因台风杜苏芮阻碍出行步伐，并在退票时遭遇难题。　　今年线下演唱会市场蓬勃复苏，不少粉丝全",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:03",
+                              "属性描述": "描述上末，多场演唱会在上海举行，全国各地粉丝跨城追星。然而，部分原计划来上海参加演唱会的外地粉丝，因台风杜苏芮阻碍出行步伐，并在退票时遭遇难题。\n　　今年线下演唱会市场蓬勃复苏，不少粉丝全国抢票追星，",
+                              "属性名称": "GoodsPlaceOrder0110"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "PayOrder",
+                      "parentId": null,
+                      "nameEn": "PayOrder",
+                      "name": "支付订单",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 5431,
+                          "eventNameEn": "PayOrder",
+                          "eventNameCn": "支付订单",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "支付订单",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-07-28 00:01:16",
+                              "属性描述": "",
+                              "属性名称": "PayOrder"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "PlaceOrder",
+                      "parentId": null,
+                      "nameEn": "PlaceOrder",
+                      "name": "商品订单提交1",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6295,
+                          "eventNameEn": "PlaceOrder",
+                          "eventNameCn": "商品订单提交1",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "商品订单提交1",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-07-31 11:12:42",
+                              "属性描述": null,
+                              "属性名称": "PlaceOrder"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "qq---q",
+                      "parentId": null,
+                      "nameEn": "qq---q",
+                      "name": "2品订单提交1描述上末，多场演唱会在上海举行，全国各地粉丝跨城追星。然而，部分原计划来上海参加演唱会的外地粉丝，因台风杜苏",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 0,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6296,
+                          "eventNameEn": "qq---q",
+                          "eventNameCn": "2品订单提交1描述上末，多场演唱会在上海举行，全国各地粉丝跨城追星。然而，部分原计划来上海参加演唱会的外地粉丝，因台风杜苏",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "2品订单提交1描述上末，多场演唱会在上海举行，全国各地粉丝跨城追星。然而，部分原计划来上海参加演唱会的外地粉丝，因台风杜苏",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-08-09 10:58:50",
+                              "属性描述": null,
+                              "属性名称": "qq---q"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "buxian",
+                      "parentId": null,
+                      "nameEn": "buxian",
+                      "name": "不显示",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6094,
+                          "eventNameEn": "buxian",
+                          "eventNameCn": "不显示",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "不显示",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-07-27 09:42:31",
+                              "属性描述": "",
+                              "属性名称": "buxian"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "dan",
+                      "parentId": null,
+                      "nameEn": "dan",
+                      "name": "单（禁用）",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 2,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6102,
+                          "eventNameEn": "dan",
+                          "eventNameCn": "单",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "单",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-07-27 11:35:16",
+                              "属性描述": "",
+                              "属性名称": "dan"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "dfds",
+                      "parentId": null,
+                      "nameEn": "dfds",
+                      "name": "心中的",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6052,
+                          "eventNameEn": "dfds",
+                          "eventNameCn": "心中的",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "心中的",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-07-26 09:49:23",
+                              "属性描述": "",
+                              "属性名称": "dfds"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "e545",
+                      "parentId": null,
+                      "nameEn": "e545",
+                      "name": "rtt",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6103,
+                          "eventNameEn": "e545",
+                          "eventNameCn": "rtt",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "rtt",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:04",
+                              "属性描述": "",
+                              "属性名称": "e545"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "jfdhcg",
+                      "parentId": null,
+                      "nameEn": "jfdhcg",
+                      "name": "积分兑换成功",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 4115,
+                          "eventNameEn": "jfdhcg",
+                          "eventNameCn": "积分兑换成功",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "积分兑换成功",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-04-11 18:14:15",
+                              "属性描述": "积分兑换成功",
+                              "属性名称": "jfdhcg"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "jin1",
+                      "parentId": null,
+                      "nameEn": "jin1",
+                      "name": "金",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6100,
+                          "eventNameEn": "jin1",
+                          "eventNameCn": "金",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "金",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-08-08 09:20:04",
+                              "属性描述": "",
+                              "属性名称": "jin1"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "xin",
+                      "parentId": null,
+                      "nameEn": "xin",
+                      "name": "新　　巴黎人报报道称，巴黎告知姆巴佩要么续约要么离队，否则就整赛季不让他踢比赛。天空体育消息称，在得知巴黎决定后，姆巴佩迅速回应，他已经准备好了整个赛季坐在替补席上，直到他的合同结束。即使明夏有欧洲杯",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 0,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6099,
+                          "eventNameEn": "xin",
+                          "eventNameCn": "新　　巴黎人报报道称，巴黎告知姆巴佩要么续约要么离队，否则就整赛季不让他踢比赛。天空体育消息称，在得知巴黎决定后，姆巴佩迅速回应，他已经准备好了整个赛季坐在替补席上，直到他的合同结束。即使明夏有欧洲杯",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "新　　巴黎人报报道称，巴黎告知姆巴佩要么续约要么离队，否则就整赛季不让他踢比赛。天空体育消息称，在得知巴黎决定后，姆巴佩迅速回应，他已经准备好了整个赛季坐在替补席上，直到他的合同结束。即使明夏有欧洲杯",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-08-15 18:11:31",
+                              "属性描述": "",
+                              "属性名称": "xin"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "guishu2",
+                      "parentId": null,
+                      "nameEn": "guishu2",
+                      "name": "归属2",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6106,
+                          "eventNameEn": "guishu2",
+                          "eventNameCn": "归属2",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "归属2",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-07-27 15:22:26",
+                              "属性描述": "",
+                              "属性名称": "guishu2"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "shu",
+                      "parentId": null,
+                      "nameEn": "shu",
+                      "name": "数据",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6077,
+                          "eventNameEn": "shu",
+                          "eventNameCn": "数据",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "数据",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-07-26 11:37:44",
+                              "属性描述": "",
+                              "属性名称": "shu"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "test727",
+                      "parentId": null,
+                      "nameEn": "test727",
+                      "name": "test727",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6101,
+                          "eventNameEn": "test727",
+                          "eventNameCn": "test727",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "test727",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-07-27 11:13:48",
+                              "属性描述": "test727",
+                              "属性名称": "test727"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  }
+              ],
+              "sort": 0
+          },
+          {
+              "id": "1731852445092081666",
+              "label": "虚拟分类",
+              "options": [
+                  {
+                      "id": null,
+                      "uniqueValue": "xn_005",
+                      "parentId": null,
+                      "nameEn": "xn_005",
+                      "name": "xn_005",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 3,
+                      "labelInfo": {
+                          "id": 7572,
+                          "eventNameEn": "xn_005",
+                          "eventNameCn": "xn_005",
+                          "tag": [
+                              "虚拟事件"
+                          ],
+                          "eventName": "xn_005",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-05 15:20:57",
+                              "属性描述": null,
+                              "属性名称": "xn_005"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "z_xn001",
+                      "parentId": null,
+                      "nameEn": "z_xn001",
+                      "name": "z_xn001",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 3,
+                      "labelInfo": {
+                          "id": 7627,
+                          "eventNameEn": "z_xn001",
+                          "eventNameCn": "z_xn001",
+                          "tag": [
+                              "虚拟事件"
+                          ],
+                          "eventName": "z_xn001",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-05 16:36:12",
+                              "属性描述": null,
+                              "属性名称": "z_xn001"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "xn_007",
+                      "parentId": null,
+                      "nameEn": "xn_007",
+                      "name": "xn_007",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 3,
+                      "labelInfo": {
+                          "id": 7629,
+                          "eventNameEn": "xn_007",
+                          "eventNameCn": "xn_007",
+                          "tag": [
+                              "虚拟事件"
+                          ],
+                          "eventName": "xn_007",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-05 17:10:10",
+                              "属性描述": null,
+                              "属性名称": "xn_007"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "xn_008",
+                      "parentId": null,
+                      "nameEn": "xn_008",
+                      "name": "xn_008",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 3,
+                      "labelInfo": {
+                          "id": 7633,
+                          "eventNameEn": "xn_008",
+                          "eventNameCn": "xn_008",
+                          "tag": [
+                              "虚拟事件"
+                          ],
+                          "eventName": "xn_008",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-05 18:24:36",
+                              "属性描述": null,
+                              "属性名称": "xn_008"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  }
+              ],
+              "sort": 0
+          },
+          {
+              "id": "0",
+              "label": "未分类",
+              "options": [
+                  {
+                      "id": null,
+                      "uniqueValue": "$PlanMsgArrived",
+                      "parentId": null,
+                      "nameEn": "$PlanMsgArrived",
+                      "name": "同步消息的终态信息",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 1768,
+                          "eventNameEn": "$PlanMsgArrived",
+                          "eventNameCn": "同步消息的终态信息",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "同步消息的终态信息",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:04",
+                              "属性描述": null,
+                              "属性名称": "$PlanMsgArrived"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$PlanMsgNotSend",
+                      "parentId": null,
+                      "nameEn": "$PlanMsgNotSend",
+                      "name": "消息未发送",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 1776,
+                          "eventNameEn": "$PlanMsgNotSend",
+                          "eventNameCn": "消息未发送",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "消息未发送",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:04",
+                              "属性描述": null,
+                              "属性名称": "$PlanMsgNotSend"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$PlanMsgSendDone",
+                      "parentId": null,
+                      "nameEn": "$PlanMsgSendDone",
+                      "name": "消息发送完成",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 1777,
+                          "eventNameEn": "$PlanMsgSendDone",
+                          "eventNameCn": "消息发送完成",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "消息发送完成",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:04",
+                              "属性描述": null,
+                              "属性名称": "$PlanMsgSendDone"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$MPAddFavorites",
+                      "parentId": null,
+                      "nameEn": "$MPAddFavorites",
+                      "name": "小程序收藏",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 3398,
+                          "eventNameEn": "$MPAddFavorites",
+                          "eventNameCn": "小程序收藏",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "小程序收藏",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-03-23 18:48:38",
+                              "属性描述": null,
+                              "属性名称": "$MPAddFavorites"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$MPClick",
+                      "parentId": null,
+                      "nameEn": "$MPClick",
+                      "name": "小程序元素点击",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 3399,
+                          "eventNameEn": "$MPClick",
+                          "eventNameCn": "小程序元素点击",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "小程序元素点击",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:04",
+                              "属性描述": null,
+                              "属性名称": "$MPClick"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$MPHide",
+                      "parentId": null,
+                      "nameEn": "$MPHide",
+                      "name": "小程序进入后台",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 3400,
+                          "eventNameEn": "$MPHide",
+                          "eventNameCn": "小程序进入后台",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "小程序进入后台",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:03",
+                              "属性描述": null,
+                              "属性名称": "$MPHide"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$MPLaunch",
+                      "parentId": null,
+                      "nameEn": "$MPLaunch",
+                      "name": "小程序启动",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 3401,
+                          "eventNameEn": "$MPLaunch",
+                          "eventNameCn": "小程序启动",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "小程序启动",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:03",
+                              "属性描述": null,
+                              "属性名称": "$MPLaunch"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$MPPageLeave",
+                      "parentId": null,
+                      "nameEn": "$MPPageLeave",
+                      "name": "小程序页面离开",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 3402,
+                          "eventNameEn": "$MPPageLeave",
+                          "eventNameCn": "小程序页面离开",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "小程序页面离开",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:03",
+                              "属性描述": null,
+                              "属性名称": "$MPPageLeave"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$MPShare",
+                      "parentId": null,
+                      "nameEn": "$MPShare",
+                      "name": "小程序分享",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 3403,
+                          "eventNameEn": "$MPShare",
+                          "eventNameCn": "小程序分享",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "小程序分享",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-03-23 18:48:39",
+                              "属性描述": null,
+                              "属性名称": "$MPShare"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$MPShow",
+                      "parentId": null,
+                      "nameEn": "$MPShow",
+                      "name": "小程序显示",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 3404,
+                          "eventNameEn": "$MPShow",
+                          "eventNameCn": "小程序显示",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "小程序显示",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:02",
+                              "属性描述": null,
+                              "属性名称": "$MPShow"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "testgd",
+                      "parentId": null,
+                      "nameEn": "testgd",
+                      "name": "1111",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 5477,
+                          "eventNameEn": "testgd",
+                          "eventNameCn": "1111",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "1111",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-01 18:12:03",
+                              "属性描述": "1111",
+                              "属性名称": "testgd"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "99",
+                      "parentId": null,
+                      "nameEn": "99",
+                      "name": "99",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6016,
+                          "eventNameEn": "99",
+                          "eventNameCn": "99",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "99",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-07-25 16:48:42",
+                              "属性描述": "",
+                              "属性名称": "99"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "snl-test",
+                      "parentId": null,
+                      "nameEn": "snl-test",
+                      "name": "ssssss",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6055,
+                          "eventNameEn": "snl-test",
+                          "eventNameCn": "ssssss",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "ssssss",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-07-26 10:42:25",
+                              "属性描述": "",
+                              "属性名称": "snl-test"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "snl-test1111",
+                      "parentId": null,
+                      "nameEn": "snl-test1111",
+                      "name": "snl-test1111",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6056,
+                          "eventNameEn": "snl-test1111",
+                          "eventNameCn": "snl-test1111",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "snl-test1111",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-07-26 10:43:22",
+                              "属性描述": "",
+                              "属性名称": "snl-test1111"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "ssssss",
+                      "parentId": null,
+                      "nameEn": "ssssss",
+                      "name": "ssssss",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6060,
+                          "eventNameEn": "ssssss",
+                          "eventNameCn": "ssssss",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "ssssss",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-07-26 11:21:21",
+                              "属性描述": "",
+                              "属性名称": "ssssss"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "gongzi",
+                      "parentId": null,
+                      "nameEn": "gongzi",
+                      "name": "绑定公共分类",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6076,
+                          "eventNameEn": "gongzi",
+                          "eventNameCn": "绑定公共分类",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "绑定公共分类",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-07-26 11:35:39",
+                              "属性描述": "",
+                              "属性名称": "gongzi"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "w21",
+                      "parentId": null,
+                      "nameEn": "w21",
+                      "name": "111",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6091,
+                          "eventNameEn": "w21",
+                          "eventNameCn": "111",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "111",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-07-27 09:51:11",
+                              "属性描述": "111的功夫￥%……&的✌",
+                              "属性名称": "w21"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "jin",
+                      "parentId": null,
+                      "nameEn": "jin",
+                      "name": "禁用",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6093,
+                          "eventNameEn": "jin",
+                          "eventNameCn": "禁用",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "禁用",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-07-28 17:02:24",
+                              "属性描述": "",
+                              "属性名称": "jin"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "gui",
+                      "parentId": null,
+                      "nameEn": "gui",
+                      "name": "归属",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6105,
+                          "eventNameEn": "gui",
+                          "eventNameCn": "归属",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "归属",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-07-27 15:20:49",
+                              "属性描述": "",
+                              "属性名称": "gui"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "q---eff5",
+                      "parentId": null,
+                      "nameEn": "q---eff5",
+                      "name": "21",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 0,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6114,
+                          "eventNameEn": "q---eff5",
+                          "eventNameCn": "21",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "21",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-08-09 10:59:05",
+                              "属性描述": "",
+                              "属性名称": "q---eff5"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "$GpushLogin",
+                      "parentId": null,
+                      "nameEn": "$GpushLogin",
+                      "name": "个推注册",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6213,
+                          "eventNameEn": "$GpushLogin",
+                          "eventNameCn": "个推注册",
+                          "tag": [
+                              "预置一般事件"
+                          ],
+                          "eventName": "个推注册",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-07-28 15:57:55",
+                              "属性描述": null,
+                              "属性名称": "$GpushLogin"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "q00",
+                      "parentId": null,
+                      "nameEn": "q00",
+                      "name": "02演唱会在上海举行，全国各地粉丝跨城追星。然而，部分原计02上海参加演唱会的外地粉丝，因台风杜苏",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 0,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6297,
+                          "eventNameEn": "q00",
+                          "eventNameCn": "02演唱会在上海举行，全国各地粉丝跨城追星。然而，部分原计02上海参加演唱会的外地粉丝，因台风杜苏",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "02演唱会在上海举行，全国各地粉丝跨城追星。然而，部分原计02上海参加演唱会的外地粉丝，因台风杜苏",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:02",
+                              "属性描述": "测试1",
+                              "属性名称": "q00"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "q09",
+                      "parentId": null,
+                      "nameEn": "q09",
+                      "name": "01演唱会在上海举行，全国各地粉丝跨城追星。然而，部分原计划来上海参加演唱会的外地粉丝，因台风杜苏（禁用）",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 2,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6298,
+                          "eventNameEn": "q09",
+                          "eventNameCn": "01演唱会在上海举行，全国各地粉丝跨城追星。然而，部分原计划来上海参加演唱会的外地粉丝，因台风杜苏",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "01演唱会在上海举行，全国各地粉丝跨城追星。然而，部分原计划来上海参加演唱会的外地粉丝，因台风杜苏",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:04",
+                              "属性描述": "描述上末，多场演唱会在上海举行，全国各地粉丝跨城追星。然而，部分原计划来上海参加演唱会的外地粉丝，因台风杜苏芮阻碍出行步伐，并在退票时遭遇难题。\n　　今年线下演唱会市场蓬勃复苏，不少粉丝全国抢票追星，",
+                              "属性名称": "q09"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "Login",
+                      "parentId": null,
+                      "nameEn": "Login",
+                      "name": "用户登录",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6300,
+                          "eventNameEn": "Login",
+                          "eventNameCn": "用户登录",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "用户登录",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:05",
+                              "属性描述": "用户登陆后触发",
+                              "属性名称": "Login"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "Login1",
+                      "parentId": null,
+                      "nameEn": "Login1",
+                      "name": "用户登陆后触发",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 0,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6301,
+                          "eventNameEn": "Login1",
+                          "eventNameCn": "用户登陆后触发",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "用户登陆后触发",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:03",
+                              "属性描述": "用户登陆后触发001",
+                              "属性名称": "Login1"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "user_tag",
+                      "parentId": null,
+                      "nameEn": "user_tag",
+                      "name": "dd",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 0,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6302,
+                          "eventNameEn": "user_tag",
+                          "eventNameCn": "dd",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "dd",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:04",
+                              "属性描述": "",
+                              "属性名称": "user_tag"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "werwr15464wtewt61w6t46st4e64t6ae4t6a4t6sf6z1v6sa4gfd6sg46sd4",
+                      "parentId": null,
+                      "nameEn": "werwr15464wtewt61w6t46st4e64t6ae4t6a4t6sf6z1v6sa4gfd6sg46sd4",
+                      "name": "年第6号台风“卡努”自生成至今已经持续在海上转悠了近10天，此前它从浙江南部沿海突然急转弯，趋向日本南部洋面，今天即将迎来第二个拐弯　8月7日10中央气象台继续发布台风蓝色预警今年第6号台风“卡努”（（禁用）",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 2,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6544,
+                          "eventNameEn": "werwr15464wtewt61w6t46st4e64t6ae4t6a4t6sf6z1v6sa4gfd6sg46sd4",
+                          "eventNameCn": "年第6号台风“卡努”自生成至今已经持续在海上转悠了近10天，此前它从浙江南部沿海突然急转弯，趋向日本南部洋面，今天即将迎来第二个拐弯　8月7日10中央气象台继续发布台风蓝色预警今年第6号台风“卡努”（",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "年第6号台风“卡努”自生成至今已经持续在海上转悠了近10天，此前它从浙江南部沿海突然急转弯，趋向日本南部洋面，今天即将迎来第二个拐弯　8月7日10中央气象台继续发布台风蓝色预警今年第6号台风“卡努”（",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-08-15 18:09:57",
+                              "属性描述": "年第6号台风“卡努”自生成至今已经持续在海上转悠了近10天，此前它从浙江南部沿海突然急转弯，趋向日本南部洋面，今天即将迎来第二个拐弯　8月7日10中央气象台继续发布台风蓝色预警今年第6号台风“卡努”（",
+                              "属性名称": "werwr15464wtewt61w6t46st4e64t6ae4t6a4t6sf6z1v6sa4gfd6sg46sd4"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "ToShoppingCart",
+                      "parentId": null,
+                      "nameEn": "ToShoppingCart",
+                      "name": "8",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6717,
+                          "eventNameEn": "ToShoppingCart",
+                          "eventNameCn": "8",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "8",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:05",
+                              "属性描述": "加入购物车",
+                              "属性名称": "ToShoppingCart"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "SearchResultsReturned1",
+                      "parentId": null,
+                      "nameEn": "SearchResultsReturned1",
+                      "name": "4",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6718,
+                          "eventNameEn": "SearchResultsReturned1",
+                          "eventNameCn": "4",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "4",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-08-18 15:13:49",
+                              "属性描述": "用户点击搜索，从服务端获取搜索结果后触发",
+                              "属性名称": "SearchResultsReturned1"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "Register",
+                      "parentId": null,
+                      "nameEn": "Register",
+                      "name": "用户注册",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6719,
+                          "eventNameEn": "Register",
+                          "eventNameCn": "用户注册",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "用户注册",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-10-21 10:45:44",
+                              "属性描述": "返回注册结果时触发",
+                              "属性名称": "Register"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "ViewProductDetails",
+                      "parentId": null,
+                      "nameEn": "ViewProductDetails",
+                      "name": "7（禁用）",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 2,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6720,
+                          "eventNameEn": "ViewProductDetails",
+                          "eventNameCn": "7",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "7",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-08-18 16:55:21",
+                              "属性描述": null,
+                              "属性名称": "ViewProductDetails"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "ActivityPageView",
+                      "parentId": null,
+                      "nameEn": "ActivityPageView",
+                      "name": "6",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 0,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6721,
+                          "eventNameEn": "ActivityPageView",
+                          "eventNameCn": "6",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "6",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-08-18 16:55:24",
+                              "属性描述": "浏览活动页面时触发",
+                              "属性名称": "ActivityPageView"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "SearchTabClick",
+                      "parentId": null,
+                      "nameEn": "SearchTabClick",
+                      "name": "搜索按钮点击",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6722,
+                          "eventNameEn": "SearchTabClick",
+                          "eventNameCn": "搜索按钮点击",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "搜索按钮点击",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:02",
+                              "属性描述": "用户点击搜索按钮时触发",
+                              "属性名称": "SearchTabClick"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "SearchResultsClick1",
+                      "parentId": null,
+                      "nameEn": "SearchResultsClick1",
+                      "name": "5用户对搜索结果点击的时候时间，车圈最刷屏的事件莫过于王传福哽咽呼吁“中国汽车在一起”，但对于比亚迪这份“团结倡议”，似乎并不是每家车企都认同。 　　先是长城汽车CTO王远力发文回应，认为中国汽车要直",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6723,
+                          "eventNameEn": "SearchResultsClick1",
+                          "eventNameCn": "5用户对搜索结果点击的时候时间，车圈最刷屏的事件莫过于王传福哽咽呼吁“中国汽车在一起”，但对于比亚迪这份“团结倡议”，似乎并不是每家车企都认同。 　　先是长城汽车CTO王远力发文回应，认为中国汽车要直",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "5用户对搜索结果点击的时候时间，车圈最刷屏的事件莫过于王传福哽咽呼吁“中国汽车在一起”，但对于比亚迪这份“团结倡议”，似乎并不是每家车企都认同。 　　先是长城汽车CTO王远力发文回应，认为中国汽车要直",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:05",
+                              "属性描述": "用户对搜索结果点击的时候时间，车圈最刷屏的事件莫过于王传福哽咽呼吁“中国汽车在一起”，但对于比亚迪这份“团结倡议”，似乎并不是每家车企都认同。 　　先是长城汽车CTO王远力发文回应，认为中国汽车要直面",
+                              "属性名称": "SearchResultsClick1"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "shijian",
+                      "parentId": null,
+                      "nameEn": "shijian",
+                      "name": "事件",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6798,
+                          "eventNameEn": "shijian",
+                          "eventNameCn": "事件",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "事件",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:04",
+                              "属性描述": "",
+                              "属性名称": "shijian"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "shijian1",
+                      "parentId": null,
+                      "nameEn": "shijian1",
+                      "name": "事件名",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6799,
+                          "eventNameEn": "shijian1",
+                          "eventNameCn": "事件名",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "事件名",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-08-22 11:14:47",
+                              "属性描述": "",
+                              "属性名称": "shijian1"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "shijian01",
+                      "parentId": null,
+                      "nameEn": "shijian01",
+                      "name": "事件名01",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6800,
+                          "eventNameEn": "shijian01",
+                          "eventNameCn": "事件名01",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "事件名01",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-08-22 11:15:19",
+                              "属性描述": "",
+                              "属性名称": "shijian01"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "shijian02",
+                      "parentId": null,
+                      "nameEn": "shijian02",
+                      "name": "事件名02",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6801,
+                          "eventNameEn": "shijian02",
+                          "eventNameCn": "事件名02",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "事件名02",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-08-22 11:16:14",
+                              "属性描述": "",
+                              "属性名称": "shijian02"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "rr",
+                      "parentId": null,
+                      "nameEn": "rr",
+                      "name": "test2",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 6954,
+                          "eventNameEn": "rr",
+                          "eventNameCn": "test2",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "test2",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-08-30 17:11:06",
+                              "属性描述": "",
+                              "属性名称": "rr"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "dading",
+                      "parentId": null,
+                      "nameEn": "dading",
+                      "name": "车辆大定",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 7027,
+                          "eventNameEn": "dading",
+                          "eventNameCn": "车辆大定",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "车辆大定",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-09-01 11:37:24",
+                              "属性描述": "",
+                              "属性名称": "dading"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "suopei",
+                      "parentId": null,
+                      "nameEn": "suopei",
+                      "name": "车辆锁配",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 7028,
+                          "eventNameEn": "suopei",
+                          "eventNameCn": "车辆锁配",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "车辆锁配",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-09-01 11:37:40",
+                              "属性描述": "",
+                              "属性名称": "suopei"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "click1",
+                      "parentId": null,
+                      "nameEn": "click1",
+                      "name": "click1",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 7148,
+                          "eventNameEn": "click1",
+                          "eventNameCn": "click1",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "click1",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:03",
+                              "属性描述": "click1",
+                              "属性名称": "click1"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "yuyuehuiyishi",
+                      "parentId": null,
+                      "nameEn": "yuyuehuiyishi",
+                      "name": "预约会议室",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 7329,
+                          "eventNameEn": "yuyuehuiyishi",
+                          "eventNameCn": "预约会议室",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "预约会议室",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:02",
+                              "属性描述": "预约会议室",
+                              "属性名称": "yuyuehuiyishi"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "shijian100",
+                      "parentId": null,
+                      "nameEn": "shijian100",
+                      "name": "s事件",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 7330,
+                          "eventNameEn": "shijian100",
+                          "eventNameCn": "s事件",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "s事件",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-11-09 14:44:44",
+                              "属性描述": "",
+                              "属性名称": "shijian100"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "yonghushijia",
+                      "parentId": null,
+                      "nameEn": "yonghushijia",
+                      "name": "用户试驾",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 0,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 7331,
+                          "eventNameEn": "yonghushijia",
+                          "eventNameCn": "用户试驾",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "用户试驾",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:04",
+                              "属性描述": "用户完成试驾",
+                              "属性名称": "yonghushijia"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "yuyue",
+                      "parentId": null,
+                      "nameEn": "yuyue",
+                      "name": "预约看车1",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 1,
+                      "labelInfo": {
+                          "id": 7333,
+                          "eventNameEn": "yuyue",
+                          "eventNameCn": "预约看车1",
+                          "tag": [
+                              "一般事件"
+                          ],
+                          "eventName": "预约看车1",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 00:02:05",
+                              "属性描述": "",
+                              "属性名称": "yuyue"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "xunni_event_ceshi_ds",
+                      "parentId": null,
+                      "nameEn": "xunni_event_ceshi_ds",
+                      "name": "虚拟测试ds",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 3,
+                      "labelInfo": {
+                          "id": 7439,
+                          "eventNameEn": "xunni_event_ceshi_ds",
+                          "eventNameCn": "虚拟测试ds",
+                          "tag": [
+                              "虚拟事件"
+                          ],
+                          "eventName": "虚拟测试ds",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-11-17 15:34:59",
+                              "属性描述": null,
+                              "属性名称": "xunni_event_ceshi_ds"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "test-01",
+                      "parentId": null,
+                      "nameEn": "test-01",
+                      "name": "test-01",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 3,
+                      "labelInfo": {
+                          "id": 7568,
+                          "eventNameEn": "test-01",
+                          "eventNameCn": "test-01",
+                          "tag": [
+                              "虚拟事件"
+                          ],
+                          "eventName": "test-01",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-05 14:20:44",
+                              "属性描述": null,
+                              "属性名称": "test-01"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "xuni_shijian",
+                      "parentId": null,
+                      "nameEn": "xuni_shijian",
+                      "name": "虚拟—事件",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 3,
+                      "labelInfo": {
+                          "id": 7570,
+                          "eventNameEn": "xuni_shijian",
+                          "eventNameCn": "虚拟—事件",
+                          "tag": [
+                              "虚拟事件"
+                          ],
+                          "eventName": "虚拟—事件",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-05 14:27:56",
+                              "属性描述": null,
+                              "属性名称": "xuni_shijian"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "xunishijianbudaiyonghu",
+                      "parentId": null,
+                      "nameEn": "xunishijianbudaiyonghu",
+                      "name": "不带用户属性虚拟事件",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 3,
+                      "labelInfo": {
+                          "id": 7571,
+                          "eventNameEn": "xunishijianbudaiyonghu",
+                          "eventNameCn": "不带用户属性虚拟事件",
+                          "tag": [
+                              "虚拟事件"
+                          ],
+                          "eventName": "不带用户属性虚拟事件",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-05 14:59:12",
+                              "属性描述": null,
+                              "属性名称": "xunishijianbudaiyonghu"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "xn_11111111111111111111",
+                      "parentId": null,
+                      "nameEn": "xn_11111111111111111111",
+                      "name": "测试分类后删除",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 3,
+                      "labelInfo": {
+                          "id": 7636,
+                          "eventNameEn": "xn_11111111111111111111",
+                          "eventNameCn": "测试分类后删除",
+                          "tag": [
+                              "虚拟事件"
+                          ],
+                          "eventName": "测试分类后删除",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 10:02:32",
+                              "属性描述": null,
+                              "属性名称": "xn_11111111111111111111"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  },
+                  {
+                      "id": null,
+                      "uniqueValue": "xx001",
+                      "parentId": null,
+                      "nameEn": "xx001",
+                      "name": "xx001",
+                      "fieldType": null,
+                      "type": null,
+                      "status": 1,
+                      "sort": null,
+                      "ckColumn": null,
+                      "eventType": 3,
+                      "labelInfo": {
+                          "id": 7640,
+                          "eventNameEn": "xx001",
+                          "eventNameCn": "xx001",
+                          "tag": [
+                              "虚拟事件"
+                          ],
+                          "eventName": "xx001",
+                          "owningPage": null,
+                          "elementXPath": null,
+                          "elementSelector": null,
+                          "elementContent": null,
+                          "experimentId": null,
+                          "propertyInfo": {
+                              "最近修改": "2023-12-06 11:16:02",
+                              "属性描述": null,
+                              "属性名称": "xx001"
+                          }
+                      },
+                      "eventFilterDTOs": null,
+                      "ptype": 3
+                  }
+              ],
+              "sort": 9999
+          }
+      ]
+  },
+  "errorList": null,
+  "message": "操作成功"
+}

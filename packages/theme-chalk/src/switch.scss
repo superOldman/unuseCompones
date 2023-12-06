@@ -1,0 +1,30 @@
+.ds-switch {
+    width: 20px;
+    height: 20px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1152);
+    border-radius: 2px;
+    border: 2px solid #ffffff;
+
+    background: #e8ffea;
+    color: #00b42a;
+
+    font-size: 12px;
+    font-weight: 500;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    user-select: none;
+    cursor: pointer;
+}
+.ds-switch.checked {
+    background: #d9e8fd;
+    color: #165dff;
+}
+
+.ds-switch.disabled {
+    background: #e5e6eb;
+    color: #4e5969;
+    cursor: not-allowed;
+}
