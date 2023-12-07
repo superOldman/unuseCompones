@@ -15,7 +15,7 @@
         </div>
       </div>
       <!-- <el-collapse-transition> -->
-      <DsRuleProp ref="RuleProp" v-bind="$attrs" :disabled="disabled" class="ds-rule-item-body" :value="formData" />
+      <DsRuleProp ref="RuleProp" v-bind="$attrs" :disabled="disabled" class="ds-rule-item-body" v-model="formData" @change="changeValue" />
     </el-form>
     <!-- </el-collapse-transition> -->
   </div>
@@ -23,7 +23,7 @@
 <script>
 import DsRuleProp from '../../rule-prop'
 import SuperFormMixin from 'src/mixins/super-form-mixin'
-import { deepClone, toUUIDObject } from 'src/utils/object'
+import { deepClone, toUUIDObject, omit } from 'src/utils/object'
 import { isArray, isObject } from 'src/utils/types'
 
 const defaultFrom = {
@@ -43,6 +43,12 @@ export default {
     }
   },
   methods: {
+    // changeValue(val) {
+    //   this.inner_value = this.fromDataTo(this.formData)
+    //   this.$emit('input', this.inner_value)
+    //   this.$emit('change', this.inner_value)
+    //   console.log(`!!!!!!!!!!!!!!!!!!!!!!!!!`, val)
+    // },
     toFormData(val) {
       const formData = val || deepClone(defaultFrom)
       const labelRules = formData?.labelRules?.map(v => {
@@ -52,7 +58,20 @@ export default {
         }
         return toUUIDObject({ relation: "AND", labelRules: [toUUIDObject(v)] })
       })
-      this.formData = {
+      Object.assign(this.formData, {
+        ...formData,
+        labelRules: labelRules || []
+      })
+    },
+    fromDataTo(formData) {
+      formData = omit(formData, ['_uuid'])
+      const labelRules = formData?.labelRules?.map(v => {
+        if (v?.labelRules?.length == 1) {
+          return v?.labelRules[0]
+        }
+        return v
+      })
+      return {
         ...formData,
         labelRules: labelRules || []
       }
@@ -62,15 +81,6 @@ export default {
     },
     clickDeletes() {
       this.$refs?.RuleProp?.clickDeletes()
-    },
-    // 最外层添加数据
-    validForm() {
-      let result = false
-      this.$refs['form'].validate((valid) => {
-        this.form = this.formData
-        result = valid
-      })
-      return result
     }
   },
 }

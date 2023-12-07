@@ -2,6 +2,8 @@ import MultiTypeSelect from '@/views/ex-MultiTypeSelect'
 import RemoteJs from '@/views/ex-RemoteJs'
 import DsMultiEditor from '@/views/ex-MultiEditor'
 import DyCompose from '@/views/ex-DyCompose'
+import DyComposeGlobal from '@/views/ex-DyCompose-global'
+import DyComposeEvent from '@/views/ex-DyCompose-event'
 import layout from '@/layout/layout.vue'
 const routes = [
   {
@@ -28,6 +30,22 @@ const routes = [
           title: '组合表单'
         },
         component: DyCompose,
+      },
+      {
+        path: '/compose-event',
+        name: 'compose-event',
+        meta: {
+          title: '高级分析事件组件'
+        },
+        component: DyComposeEvent,
+      },
+      {
+        path: '/compose-global',
+        name: 'compose-global',
+        meta: {
+          title: '全局筛选'
+        },
+        component: DyComposeGlobal,
       },
       {
         path: '/remote-js',

@@ -1,9 +1,9 @@
 .ds-switch-warp {
     position: relative;
     display: flex;
-    justify-content: center;
+    // justify-content: center;
     align-items: center;
-    width: 44px;
+    width: 32px;
     .ds-switch {
         z-index: 2;
     }
@@ -13,15 +13,16 @@
         position: absolute;
         width: 1px;
         background-color: #c9cdd4;
-        height: calc(50% - 18px);
-        left: 50%;
+        height: calc(50% - 24px);
+        left: 10px;
         transform: translateX(-50%);
+        pointer-events: none;
     }
     &::before {
-        top: 0;
+        top: 6px;
     }
     &::after {
-        bottom: 0;
+        bottom: 6px;
     }
     &.hover::before,
     &.hover::after {

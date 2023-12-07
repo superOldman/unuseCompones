@@ -1,6 +1,6 @@
 <template>
   <div class="w-100">
-    <DsRuleUserProp :propOptions="propOptions" :value="data"></DsRuleUserProp>
+    
   </div>
 </template>
 
@@ -9,21 +9,23 @@
 import { getLabel } from "packages/api"
 import { omit } from "src/utils/object"
 import { mockData } from './mock-Data'
+import Ds from "packages"
+import { toUUIDObject } from 'src/utils/object'
+
+
 export default {
   components: {
 
   },
-  props: {
-    filterList: {
-      type: Array,
-      default: null
-    }
-  },
+
   data() {
     return {
       propOptions: {},
-      data: omit(mockData, ['eventFilterDTOs'])
+      data: {},
     }
+  },
+  computed: {
+ 
   },
   created() {
     this.reqGetLabel()
@@ -42,4 +44,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 </style>

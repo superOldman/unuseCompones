@@ -1,26 +1,34 @@
 import { version } from '../package.json'
 
 import api from './api'
-import DsDyDatePicker from "./dy-date-picker"
+// import from "./dy-date-picker"
 import DsRemoteJs from "./remote-js"
 import DsMultiTypeSelect from "./multi-type-select"
-import DsRuleUserProp from "./rule-user-prop"
+import DsRuleUserProp from "./rule-user-prop"      // 用户属性
+import DsRuleUserAct from "./rule-user-act"        // 用户行为
+import DsRuleAnalysisGroup from "./rule-analysis-group"     // 分析分组
+import DsRuleGlobalGroup from "./rule-global-group"     // 全局筛选
+
+import DsRuleEventAnalysisGroup from "./rule-event-analysis-group"     // 分析分组
+
 import DsIconFont from "./icon-font"
 import DsSwitch from "./switch"
 import DsSwitchWarp from "./switch-warp"
-import datePickerNew from "./multipleTypesDatePicker/picker/date-picker"
+import DsDyDatePicker  from "./dy-date-picker/picker/date-picker"
 
 
 export const components = [
     DsDyDatePicker,
     DsRemoteJs,
     DsMultiTypeSelect,
-    DsDyDatePicker,
     DsRuleUserProp,
+    DsRuleUserAct,
+    DsRuleGlobalGroup,
+    DsRuleAnalysisGroup,
+    DsRuleEventAnalysisGroup,
     DsIconFont,
     DsSwitch,
     DsSwitchWarp,
-    datePickerNew
 ]
 
 // 定义 install 方法，接收 Vue 作为参数。如果使用 use 注册插件，则所有的组件都将被注册
@@ -43,7 +51,7 @@ const install = function (Vue, opts = {}) {
 
 export const componentsMap = components.reduce((p, v) => (p[v.name] = v, p), {})
 
-function loadCodeSign(){
+function loadCodeSign() {
     const link = document.createElement('link');
     link.href = 'https://cdn3.codesign.qq.com/icons/myB3P048nX0n7lQ/latest/iconfont.css';
     link.rel = 'stylesheet';

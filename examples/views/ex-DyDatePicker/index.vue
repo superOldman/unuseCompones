@@ -8,10 +8,11 @@
             <el-button size="mini" @click="changeDate(5)">动态时间三</el-button>
 
         </div>
-        <datePickerNew v-model="currentItem.timeParams" type="daterange" value-format="yyyy-MM-dd" unlink-panels
+        <!-- todo 需要添加 noOnlineTime-->
+        <DsDyDatePicker v-model="currentItem.timeParams" type="daterange" value-format="yyyy-MM-dd" unlink-panels
             :picker-options="pickerOptionsCustom" :timeFunction="currentItem.timeFunction"
             :witchTimeShortcut="currentItem.witchTimeShortcut" @getData="handleChangeTime">
-        </datePickerNew>
+        </DsDyDatePicker>
         <h1>
             <pre>{{ currentItem }}</pre>
         </h1>
@@ -24,11 +25,29 @@ export default {
     data() {
         return {
             currentItem: {
+                "timeFunction": "absolute_time",
+                "witchTimeShortcut": [], "timeParams": ["2023-11-01", "2023-11-04"]
+            },
+            currentItem1: {
                 "timeFunction": "relative_time",
-                "timeParams": ["2023-11-14", "2023-11-19"],
-                // "witchTimeShortcut": ["LAST_SEVEN_DAY"],
-                // "witchTimeShortcut": [5, 2],
-                "witchTimeShortcut": ["2023-11-01", 3],
+                "witchTimeShortcut": ["LAST_MOTH"],
+                "timeParams": ["2023-11-01", "2023-11-30"]
+            },
+            currentItem2: {
+                "timeFunction": "relative_time",
+                "witchTimeShortcut": ["2023-11-08", 11],
+                "timeParams": ['2023-11-08', '2023-11-20']
+            },
+            currentItem3: {
+                "timeFunction": "relative_time",
+                "witchTimeShortcut": ["2023-11-25", "1"],
+                "timeParams": ['2023-11-25', '2023-11-30']
+            },
+
+            currentItem4: {
+                "timeFunction": "relative_time",
+                "witchTimeShortcut": [10, 4],
+                "timeParams": ['2023-11-21', '2023-11-27']
             },
             pickerOptionsCustom: {
                 disabledDate: (time) => {
@@ -38,7 +57,7 @@ export default {
         }
     },
     mounted() {
-        this.changeDate(3)
+        this.changeDate(2)
     },
     methods: {
         changeDate(type) {

@@ -6,7 +6,7 @@ import '@/styles/index.scss'
 import DSComponent from 'packages' // 二次封装组件
 import "packages/theme-chalk/src/index.scss"
 import request from "@/service/index"
-const baseURL = "https://preapiconsole.71360.com/api/app/cdp-tag"
+const baseURL = "https://preapiconsole.71360.com/api/app"
 
 Vue.config.productionTip = false
 Vue.use(DSComponent, { request, baseURL })

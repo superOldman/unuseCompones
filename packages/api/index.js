@@ -1,6 +1,7 @@
-
+import axios from "axios"
 let baseURL = ''
 let requestUse = () => { }
+const CancelToken = axios.CancelToken
 
 export const use = function (reqFunc, url) {
   if (!reqFunc) {
@@ -20,8 +21,12 @@ export const use = function (reqFunc, url) {
 export default { use }
 
 const requestA = (data) => {
-  return requestUse({ ...data, ...{ baseURL } })
+  return requestUse({ ...data, ...{ baseURL: `${baseURL}/cdp-tag` } })
 }
+const requestB = (data) => {
+  return requestUse({ ...data, ...{ baseURL: `${baseURL}/cdp-analysis` } })
+}
+
 
 // 
 export function getFieldValuesSelect(data) {
@@ -56,5 +61,33 @@ export function getEventActionProperty(data) {
     url: '/common/queryEventActionPropertyV3',
     method: 'post',
     data
+  })
+}
+
+
+// 查询分析事件行为指标
+let getEventActionIndicatorAddCancel
+export function getEventActionIndicatorAdd(data) {
+  getEventActionIndicatorAddCancel && getEventActionIndicatorAddCancel()
+  return requestA({
+    url: '/common/queryEventActionProperty',
+    method: 'post',
+    data,
+    cancelToken: new CancelToken(function executor(c) {
+      getEventActionIndicatorAddCancel = c
+    })
+  })
+}
+
+let getEventActionIndicatorCancel
+export const getEventActionIndicator = (params) => {
+  getEventActionIndicatorCancel && getEventActionIndicatorCancel()
+  return requestB({
+    url: '/analysis/queryEventActionIndicatorV2',
+    method: 'post',
+    params,
+    cancelToken: new CancelToken(function executor(c) {
+      getEventActionIndicatorCancel = c
+    })
   })
 }

@@ -3,8 +3,43 @@ const isProduction = process.env.NODE_ENV === 'production'
 function resolve(dir) {
     return path.join(__dirname, dir)
 }
+const externals_prod = {
+    vue: {
+        commonjs: 'vue',
+        commonjs2: 'vue',
+        amd: 'vue',
+        root: 'Vue',
+    },
+    modesign: {
+        commonjs: 'modesign',
+        commonjs2: 'modesign',
+        amd: 'modesign',
+        root: 'MODESIGN'
+    },
+    vuex: {
+        commonjs: 'vuex',
+        commonjs2: 'vuex',
+        amd: 'vuex',
+        root: 'Vuex'
+    },
+    'vue-router': {
+        commonjs: 'vue-router',
+        commonjs2: 'vue-router',
+        amd: 'vue-router',
+        root: 'VueRouter'
+    }
+}
+const externals_dev = {
+    vue: "Vue",
+    modesign: "MODESIGN",
+    vuex: "Vuex",
+    'vue-router': "VueRouter"
+}
+const externals = isProduction ? externals_prod : externals_dev
+
 module.exports = {
     productionSourceMap: !isProduction,
+    parallel: false,
     // 修改 src 目录 为 examples 目录
     pages: {
         index: {
@@ -19,6 +54,7 @@ module.exports = {
     },
     configureWebpack: {
         resolve: {
+            extensions: ['.js', 'css', 'scss', '.vue'],
             // 别名
             alias: {
                 '@': resolve('examples'),
@@ -26,12 +62,7 @@ module.exports = {
                 'packages': resolve('packages')
             }
         },
-        externals: {
-            vue: 'Vue',
-            modesign: 'MODESIGN', // 注意大写
-            vuex: 'Vuex',
-            'vue-router': 'VueRouter',
-        }
+        externals
     },
     chainWebpack: config => {
         // config.resolve.alias['@'] = resolve('examples')
@@ -43,10 +74,8 @@ module.exports = {
         if (isProduction) {
             config.mode = 'production'
             // 打包文件大小配置
-            config.performance = {
-                maxEntrypointSize: 10000000,
-                maxAssetSize: 30000000
-            }
+            config.performance.maxEntrypointSize = 10000000
+            config.performance.maxAssetSize = 30000000
         }
     },
     devServer: {

@@ -1,10 +1,10 @@
 <template>
   <!-- 用户属性满足 -->
-  <el-form ref="form" class="fx" :model="formData" :rules="rules" :hide-required-asterisk="true" :inline="true">
+  <el-form ref="form" class="fx-s-center ds-rule-prop-item" :model="formData" :rules="rules" :hide-required-asterisk="true" :inline="true">
     <!-- 第一项 -->
     <!-- <el-form-item prop="field" :rules="disabled ? rules.checkLegal[0] : rules.checkLegal"> -->
     <el-form-item prop="field">
-      <mySelect v-model="formData.field" :isNeedChangeWidth="true" :disabled="disabled" :options="propOptions.options" searchShow placeholder="请选择" @change="handleChange($event, formData)" />
+      <DsMultiTypeSelect v-model="formData.field" :isNeedChangeWidth="true" :disabled="disabled" :options="propOptions.options" searchShow placeholder="请选择" @change="handleChange($event, formData)" />
     </el-form-item>
     <!-- 第二项 -->
     <!-- <el-form-item prop="function" :rules="rules.requiredRule"> -->
@@ -14,17 +14,21 @@
       </el-select>
     </el-form-item>
     <!-- 第三项 -->
-    <ValueItem :disabled="disabled" v-model="formData" />
-    <div v-if="addAble && !disabled" @click="addInsideData()">
-      <span>添加</span>
-    </div>
-    <div v-if="!disabled" @click="delTagGroupItem()">
-      <span>删除</span>
-    </div>
+    <ValueItem :disabled="disabled" v-model="formData" @change="changeValue()"/>
+    <el-tooltip effect="dark" v-if="addAble && !disabled" content="添加子条件" placement="bottom">
+      <div class="ds-rule-item-action" @click="$emit('addItem')">
+        <i class="ds-icon-rule-add" />
+      </div>
+    </el-tooltip>
+    <el-tooltip effect="dark" v-if="!disabled" content="删除子条件" placement="bottom">
+      <div class="ds-rule-item-action" @click="$emit('deleteItem')">
+        <i class="ds-icon-rule-close" />
+      </div>
+    </el-tooltip>
   </el-form>
 </template>
 <script>
-import mySelect from "@/components/mySelect"
+import DsMultiTypeSelect from "../../multi-type-select"
 import SuperFormMixin from 'src/mixins/super-form-mixin'
 import ValueItem from './valueItem'
 import { getOpsOptions } from "src/utils/business"
@@ -32,7 +36,7 @@ export default {
   name: 'DsRulePropItem',
   mixins: [SuperFormMixin],
   components: {
-    mySelect,
+    DsMultiTypeSelect,
     ValueItem
   },
   props: {
@@ -83,28 +87,31 @@ export default {
       this.formData = val || {}
     },
     changeCondition(val) {
-      this.formData.betweenRranking1 = ''
-      this.formData.betweenRranking2 = ''
-      this.formData.params = []
-      this.formData.paramsToString = ''
-      this.formData.isInput = !['IS_SET', 'NOT_SET', 'IS_TRUE', 'IS_FALSE'].includes(val)
+      this.resetThreeValue()
+      this.changeValue()
     },
     async handleChange(val) {
-      this.formData.isInput = true
-      
-      this.formData.betweenRranking1 = ''
-      this.formData.betweenRranking2 = ''
-      this.formData.params = []
-      this.formData.paramsToString = ''
-
+      this.resetThreeValue()
       this.formData.type = val.type
       this.formData.ckColumn = val.ckColumn
       this.formData.fieldType = val.fieldType
       // 为布尔不需获取第三个框的数据
       this.opsOptions = getOpsOptions(val.fieldType)
       this.formData.function = this.opsOptions?.[0]?.value
+      this.changeValue()
     },
 
+    resetThreeValue() {
+      this.formData.betweenRranking1 = ''
+      this.formData.betweenRranking2 = ''
+      this.formData.params = []
+      this.formData.paramsToString = ''
+    }
   }
 }
 </script>
+<style lang="scss" scoped>
+.ds-rule-prop-item {
+  padding: 6px;
+}
+</style>

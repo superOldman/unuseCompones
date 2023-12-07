@@ -28,6 +28,7 @@ export default {
   },
   computed: {
     checked() {
+      console.log(this.value, this.activeValue)
       return this.value === this.activeValue;
     },
   },

@@ -1,8 +1,8 @@
 {
   "name": "di-smart-component",
-  "version": "0.1.0",
+  "version": "1.0.2",
   "description": "Vue2 中基于Element-ui二次封装基础组件文档",
-  "private": true,
+  "private": false,
   "main": "lib/di-smart-component.umd.min.js",
   "files": [
     "lib",
@@ -25,7 +25,6 @@
     "@vue/babel-preset-jsx": "^1.4.0",
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
-    "element-ui": "^2.15.14",
     "lodash": "^4.17.21",
     "moment": "^2.29.3",
     "throttle-debounce": "^1.0.1",
